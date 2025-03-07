@@ -33,4 +33,4 @@ T = int(input())
 for tc in range(1, T+1):
     puzzle = [list(map(int, input().split())) for _ in range(9)]
     result = sdoku(puzzle)
-    print(f'{tc} {result}')
+    print(f'#{tc} {result}')
