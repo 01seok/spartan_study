@@ -20,4 +20,4 @@ for tc in range(1, T + 1):
 
             max_flower = max(max_flower, cnt)  # 최대값 갱신
 
-    print(f'#{tc} {max_flower}')  # 정답 출력
+    print(f'#{tc} {max_flower}')
