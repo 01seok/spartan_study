@@ -31,4 +31,4 @@ for tc in range(1, T + 1):
         # 마찬가지로 1로 끝났으면 열을 다 돌고 나서도 최대 길이 갱신
         max_len = max(max_len, length)
     
-    print(f"#{tc} {max_len}")
+    print(f'#{tc} {max_len}')
